@@ -120,3 +120,14 @@ body {
 .profileText * {
     padding: 10px;
 }
+
+@media (max-width: 800px) {
+    #menu {
+        display: none;
+    }
+
+    .profile {
+        display: grid;
+        grid-template-columns: 1;
+    }
+}
