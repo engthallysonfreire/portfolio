@@ -90,7 +90,7 @@ body {
     right: 10px;
     visibility: 0;
     opacity: 0;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     text-align: center;
     padding-top: 50%;
     transition: opacity .2s;
@@ -113,21 +113,10 @@ body {
 }
 
 .profilePic {
-    max-width: 20vw;
+    max-width: 10vw;
     padding: 10px;
 }
 
 .profileText * {
     padding: 10px;
-}
-
-@media (max-width: 800px) {
-    #menu {
-        display: none;
-    }
-
-    .profile {
-        display: grid;
-        grid-template-columns: 1;
-    }
 }
